@@ -1,0 +1,17 @@
+header {
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+}

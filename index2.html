@@ -1,0 +1,172 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
+    <header>
+      <p>puedes llevar hasta 10 stickers</p>
+    </header>
+    <div class="box">
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n1" class="card-text">n1</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n2" class="card-text">n2</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n3" class="card-text">n3</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="validacion">llevas demasiados stickers</p>
+      <button onclick="
+      
+      ">Verificar</button>
+    </footer>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
+    <header>
+      <p>Puedes llevar hasta 10 stickers</p>
+    </header>
+    <div class="box">
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n1" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n2" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n3" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="validacion">Llevas demasiados stickers</p>
+      <button onclick="verificarStickers()">Verificar</button>
+    </footer>
+
+    <script>
+      function verificarStickers() {
+        var n1 = parseInt(document.getElementById("n1").innerText);
+        var n2 = parseInt(document.getElementById("n2").innerText);
+        var n3 = parseInt(document.getElementById("n3").innerText);
+        var suma = n1 + n2 + n3;
+
+        var mensajeValidacion = document.getElementById("validacion");
+        if (suma > 10) {
+          mensajeValidacion.style.display = "block";
+        } else {
+          mensajeValidacion.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
+    <header>
+      <p>Puedes llevar hasta 10 stickers</p>
+    </header>
+    <div class="box">
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n1" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n2" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="assets/img/fc9b152d-d865-40f0-bae0-c3da544b6c8c.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p id="n3" class="card-text" contenteditable="true">0</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="validacion">Llevas demasiados stickers</p>
+      <button id="verificarBtn">Verificar</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
